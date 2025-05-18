@@ -13,6 +13,12 @@ export interface Category {
 
 export const PRODUCTS: Category[] = [
   {
+    id: 0,
+    categorie: "Lancement",
+    color: "#FF00F5",
+    products: [],
+  },
+  {
     id: 1,
     categorie: "gastro entérologie",
     color: "#FF4500", // matte red
